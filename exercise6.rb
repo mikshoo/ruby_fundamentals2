@@ -1,14 +1,23 @@
 #grocery list items in an array
 
-grocery_list = ["apples", "grapes", "paper towels", "milk"]
+grocery_list = ["apples", "grapes", "paper towels", "milk"] #groceries shows up as list
+
+grocery_list.push ("rice")
+	
 
 grocery_list.each do |item| 
 
-	# puts item "#{*grocery_list}"
-	puts "*#{item}"
-	# puts ""
+	puts "*#{item}" #Outside of brackets adds symbol to each item
+					#inside of brackets run code
 
+	
 
+	
+
+	
+	#
+
+# puts item "#{*grocery_list}"
 end 
 
 
