@@ -1,13 +1,22 @@
 grocery_list = ["apples", "grapes", "paper towels", "milk"]
 
 def groceries(list)
-	list.each  {|item| puts "* #{item}"}
+	list.each  {|item| puts "* #{item}"} #puts asterix infront of item
 	end
 	
+groceries(grocery_list) 
+
+grocery_list << "rice" #adds rice to the list
+
 groceries(grocery_list)
 
-grocery_list << "rice"
+puts grocery_list.length #checks the legnth of the list
 
-groceries(grocery_list)
+if grocery_list.include? ("bananas")
 
-puts grocery_list.length
+puts "You need to pick up bananas!"
+
+else
+	puts "You do not need to pick up bananas!"
+
+end
