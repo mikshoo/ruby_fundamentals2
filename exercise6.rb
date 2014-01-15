@@ -25,6 +25,12 @@ puts grocery_list[1] #displays the second item on the list
 
 grocery_list = grocery_list.sort #sorts the list from A - Z
 
+grocery_list.delete("milk")
+
+groceries(grocery_list)
+
+
+
 
 
 
