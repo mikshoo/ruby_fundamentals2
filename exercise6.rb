@@ -20,3 +20,9 @@ else
 	puts "You do not need to pick up bananas!"
 
 end
+
+puts grocery_list[1] #displays the second item on the list
+
+
+
+
