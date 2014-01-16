@@ -13,11 +13,11 @@ end
 
 puts students.keys
 
-puts "the number of students in each cohort have increased"
+puts "the number of students in each cohort have increased to"
 
 students.each do |key, value| 
 	students[key] = value * 1.05
-	puts students
+	puts "#{students}"
 
 end
 
